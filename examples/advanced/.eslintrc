@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  // "extends": "enough",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "DEBUG": false,
+    "VERSION": false,
+    "CONFIG": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
+  "rules": {
+    "linebreak-style": 0
+  }
+}
